@@ -345,7 +345,6 @@ PowerShell -Command "Get-AppxPackage *WindowsSoundRecorder* | Remove-AppxPackage
 PowerShell -Command "Get-AppxPackage *xbox* | Remove-AppxPackage"
 PowerShell -Command "Get-AppxPackage *windowscommunicationsapps* | Remove-AppxPackage"
 PowerShell -Command "Get-AppxPackage *zune* | Remove-AppxPackage"
-PowerShell -Command "Get-AppxPackage *WindowsCalculator* | Remove-AppxPackage"
 PowerShell -Command "Get-AppxPackage *WindowsMaps* | Remove-AppxPackage"
 PowerShell -Command "Get-AppxPackage *Sway* | Remove-AppxPackage"
 PowerShell -Command "Get-AppxPackage *CommsPhone* | Remove-AppxPackage"
