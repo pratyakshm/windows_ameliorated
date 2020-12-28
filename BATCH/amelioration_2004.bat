@@ -60,25 +60,6 @@ else (
 		
 :preame
 cls
-:: DotNet 3.5 Installation from install media
-cls
-echo.
-echo  :: Installing .NET 3.5 for Windows 10
-echo.
-echo     Windows 10 normally opts to download this runtime via Windows Update.
-echo     However, it can be installed with the original installation media.
-echo     .NET 3.5 is necessary for certain programs and games to function.
-echo.
-echo  :: Please mount the Windows 10 installation media and specify a drive letter.
-echo.
-echo  :: Type a 'drive letter' e.g. D: and press ENTER
-echo  :: Type 'exit' to return to the menu
-echo.
-set /P drive=
-if %drive%==exit GOTO menu
-	dism /online /enable-feature /featurename:NetFX3 /All /Source:%drive%\sources\sxs /LimitAccess
-
-cls
 echo.
 echo  :: Disabling Windows Update
 timeout /t 2 /nobreak > NUL
