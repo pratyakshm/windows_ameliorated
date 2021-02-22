@@ -540,7 +540,7 @@ timeout /t 1 /nobreak > NUL
 :: Add/Remove packages here. Use chocolatey to 'search' for packages matching a term to get the proper name or head over to https://chocolatey.org/packages
 :: Recommended optional packages include: libreoffice steam adobeair ffmpeg mpv youtube-dl directx cygwin babun transmission-qt audacity cdrtfe obs syncthing keepass
 
-@powershell -NoProfile -ExecutionPolicy Bypass -Command "choco install -y --force --allow-empty-checksums firefox thunderbird open-shell vlc 7zip jpegview vcredist-all directx onlyoffice wget"
+@powershell -NoProfile -ExecutionPolicy Bypass -Command "choco install -y --force --allow-empty-checksums ungoogled-chromium vlc 7zip irfanview vcredist-all"
 
 :: Configure Open-Shell
 :testos
