@@ -1,5 +1,5 @@
 ﻿:: Windows 10 AME BATCH Script
-:: v2004.2020.11.3
+:: v20H2.2021.02
 
 @echo off
 pushd "%~dp0"
@@ -25,11 +25,11 @@ goto menu
 :menu
 cls
 echo.
-echo  :: WINDOWS 10 AME SETUP SCRIPT Version 2020.11.3
+echo  :: WINDOWS 10 AME SETUP SCRIPT Version 2021.02
 echo. 
 echo     This script gives you a list-style overview to execute many commands
 echo. 
-echo  :: NOTE: For Windows 10 Build 2004 Only
+echo  :: Supports Windows 10 20H2
 echo. 
 echo     1. Run Pre-Amelioration
 echo     2. Run Post-Amelioration
@@ -562,7 +562,7 @@ goto menu
 
 :reboot
 echo.
-echo  :: WINDOWS 10 AME SETUP SCRIPT Version 2020.11.3
+echo  :: WINDOWS 10 AME SETUP SCRIPT Version 2021.02
 echo.
 cls
 echo A reboot is required to complete setup.
